@@ -12,7 +12,32 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Show Home Page
 Route::get('/', function () {
     return view('welcome');
 });
+// Show All Listing
+Route::get('/{property_type}/{listing_type}', function () {
+    return view('welcome');
+});
+// Show single Listing
+Route::get('/listing/{slug}/{id}', function () {
+    return view('welcome');
+});
+// Show User login
+Route::get('/login', function () {
+    return view('welcome');
+});
+// Show User register
+Route::get('/register', function () {
+    return view('welcome');
+});
+// Show User saved Listings
+Route::get('/accounts/saved', function () {
+    return view('welcome');
+});
+// Show User show status
+Route::get('/account/show-status', function () {
+    return view('welcome');
+});
+
