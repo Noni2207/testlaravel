@@ -1,2 +1,7 @@
 
-@extends('styles.scss')
+@import"./base/reset";
+@import"./base/utilities.css";
+@import"./base/variables.css";
+@import"./vendors/bootstrap/css/bootstrap.css";
+@import"./layouts/main-layout.css";
+@import"./components/header.css"; 
