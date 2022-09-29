@@ -22,11 +22,11 @@
            background: #3366cc;
            color: white;
        }
-    }&__account{
+    &__account{
         display: flex;
         align-items: center;
     }
-    }&__account-link{
+    &__account-link{
       width: 40px;
       height: 40px; 
       border-radius: 50%; 
@@ -37,4 +37,7 @@
       margin-right: 1.5rem;
       color: #3366cc;
     }
+
+}
+
 }
